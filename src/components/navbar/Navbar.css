@@ -9,7 +9,7 @@
   margin: 0 auto;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 5%);
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   width: 100%;
 }
 .nav-links a {
@@ -47,14 +47,25 @@
 .services {
   position: relative;
 }
+
+.dropdown-img {
+  display: flex;
+  width: 4rem;
+}
+.dropdown-img img {
+  width: 16px;
+  height: 16px;
+  padding-left: 4px;
+}
+
 .dropdown {
   padding: 1em 0;
   position: absolute;
   display: none;
   top: 60px;
   z-index: 1;
-  width: 1775%;
-  right: -602px;
+  width: 1863%;
+  right: -642px;
 }
 
 .services:hover .dropdown {
@@ -65,36 +76,86 @@
   background: white;
   float: left;
   width: 19% !important;
-  padding: 10px;
+  padding: 4px;
   color: black;
-  height: 61vh;
+  height: 80vh;
+}
+.column h3 {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .column a {
   float: none;
   color: black;
-  padding: 16px;
+  padding: 6px;
   text-decoration: none;
   display: block;
   text-align: center;
+  font-weight: 400;
 }
 
 .column1 {
   float: left;
   width: 18% !important;
-  padding: 10px;
+  padding: 4px;
   background: black;
   color: white;
-  height: 61vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.column1 img {
+  padding-bottom: 25px;
+  width: 10rem;
 }
 
 .column1 a {
   float: none;
   color: rgb(255, 255, 255);
-  padding: 16px;
+  padding: 6px;
   text-decoration: none;
   display: block;
   text-align: center;
+}
+
+.column2 {
+  float: left;
+  width: 18% !important;
+  padding: 4px;
+  background: black;
+  color: white;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 2rem;
+}
+.column2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.column2 a {
+  float: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  text-decoration: none;
+  display: block;
+  text-align: start;
+  font-weight: 400;
+}
+.column2 p {
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  font-weight: 300;
+  border: 1px solid rgb(211, 210, 210);
+  border-radius: 5px;
+  margin-bottom: 4px;
 }
 
 /* Clear floats after the columns */

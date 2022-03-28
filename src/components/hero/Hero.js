@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import hero from "../../assets/11-01.png";
+import hero from "../../assets/11-01.jpg";
 import Nokia from "../../assets/nokia-logo.png";
 
 function Hero() {

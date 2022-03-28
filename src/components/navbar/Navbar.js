@@ -1,6 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/Logo.svg";
+import Sales from "../../assets/Salesforce-Cardeee.svg";
+import dropdown from "../../assets/icons8-down-24.png";
 
 function Navbar() {
   return (
@@ -13,16 +15,28 @@ function Navbar() {
         <ul className="nav-links">
           <div className="menu">
             <li className="services">
-              <a href="/">Services</a>
+              <div className="dropdown-img">
+                <div>
+                  {" "}
+                  <a href="/">Services</a>
+                </div>
+                <div style={{ paddingTop: "2px", paddingLeft: "8px" }}>
+                  <img src={dropdown} />
+                </div>
+              </div>
 
               <div className="dropdown">
                 <div className="row">
                   <div className="column1">
-                    <h3>Category 1</h3>
+                    <img src={Sales} />
 
-                    <a href="#">Development Services</a>
-                    <a href="#">DevOps</a>
-                    <a href="#">Discovery Workshop</a>
+                    <a style={{ fontSize: "12px" }} href="#">
+                      “tkxel Among Best <br />
+                      Salesforce Solution Providers”
+                    </a>
+                    <a style={{ fontSize: "9px", color: "blue" }} href="#">
+                      July 14th, 2020
+                    </a>
                   </div>
 
                   <div className="column">
@@ -39,21 +53,33 @@ function Navbar() {
                   </div>
                   <div className="column">
                     <h3>Solutions</h3>
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <a href="#">Salesforce</a>
+                    <a href="#">ServiceNow</a>
+                    <a href="#">MuleSoft</a>
+                    <a href="#">AWS</a>
+                    <a href="#">Cyber Security</a>
+                    <a href="#">BPO</a>
+                    <a href="#">Shopify</a>
                   </div>
                   <div className="column">
                     <h3>Emerging Technologies</h3>
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <a href="#">Data Science & AI</a>
+                    <a href="#">Blockchain</a>
+                    <a href="#">Internet of Things</a>
+                    <a href="#">AR/VR</a>
+                    <a href="#">Robotic Process Automation</a>
+                    <a href="#">E-learning</a>
+                    <a href="#">Healthcare</a>
                   </div>
-                  <div className="column1">
+                  <div className="column2">
                     <h3>Engagement Models</h3>
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <a href="#">Build Your Dedicated Teams</a>
+                    <a href="#">Fixed Price Project</a>
+                    <h3>By Role</h3>
+                    <p>CEO</p>
+                    <p>CTO/CIO</p>
+                    <p>COO</p>
+                    <p>Product Manager</p>
                   </div>
                 </div>
               </div>
