@@ -16,33 +16,40 @@ function Navbar() {
               <a href="/">Services</a>
 
               <div className="dropdown">
-                <div class="row">
-                  <div class="column1">
+                <div className="row">
+                  <div className="column1">
                     <h3>Category 1</h3>
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+
+                    <a href="#">Development Services</a>
+                    <a href="#">DevOps</a>
+                    <a href="#">Discovery Workshop</a>
                   </div>
 
-                  <div class="column">
+                  <div className="column">
                     <h3>Software Development</h3>
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <a href="#">Custom Software Development</a>
+                    <a href="#">Web App Development</a>
+                    <a href="#">Mobile App Development</a>
+                    <a href="#">UI/UX Design</a>
+                    <a href="#">QA & Testing</a>
+                    <a href="#">Embedded Software</a>
+                    <a href="#">Development Services</a>
+                    <a href="#">DevOps</a>
+                    <a href="#">Discovery Workshop</a>
                   </div>
-                  <div class="column">
+                  <div className="column">
                     <h3>Solutions</h3>
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>
                   </div>
-                  <div class="column">
+                  <div className="column">
                     <h3>Emerging Technologies</h3>
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>
                   </div>
-                  <div class="column1">
+                  <div className="column1">
                     <h3>Engagement Models</h3>
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
