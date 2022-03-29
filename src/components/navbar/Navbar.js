@@ -7,7 +7,7 @@ import dropdown from "../../assets/icons8-down-24.png";
 function Navbar() {
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar1">
         <div className="logo">
           <img src={logo} />
         </div>
@@ -25,7 +25,7 @@ function Navbar() {
                 </div>
               </div>
 
-              <div className="dropdown">
+              <div className="dropdown1">
                 <div className="row">
                   <div className="column1">
                     <img src={Sales} />

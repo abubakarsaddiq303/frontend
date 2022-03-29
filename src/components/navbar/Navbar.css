@@ -1,4 +1,4 @@
-.navbar {
+.navbar1 {
   display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;
@@ -58,17 +58,17 @@
   padding-left: 4px;
 }
 
-.dropdown {
+.dropdown1 {
   padding: 1em 0;
   position: absolute;
   display: none;
   top: 60px;
   z-index: 1;
-  width: 1863%;
-  right: -642px;
+  width: 1914%;
+  right: -718px;
 }
 
-.services:hover .dropdown {
+.services:hover .dropdown1 {
   display: block;
 }
 
