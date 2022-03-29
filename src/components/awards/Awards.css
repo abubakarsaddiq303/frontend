@@ -1,0 +1,57 @@
+.awards {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: #13202d;
+}
+.awards-wraper {
+  position: relative;
+  width: 100%;
+}
+.wraper-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.container-slider {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.home-heading {
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.inner-slider {
+  margin-bottom: 80px;
+}
+.achivement-slider {
+  margin-left: auto;
+  margin-right: auto;
+
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+
+  touch-action: pan-y;
+}
+.swiper-wriper {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+  transform: translate3d(-4162.5px, 0px, 0px);
+  transition-duration: 0ms;
+}
+
+.container-full {
+  background: #fff;
+  color: #000;
+  border: 1px solid #e2e2e2;
+}

@@ -23,3 +23,85 @@ Carousel {
 .w-100 {
   height: 50vh !important;
 }
+
+.section {
+  box-sizing: border-box;
+}
+.embd-section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(380px, 1fr));
+  gap: 0;
+}
+.left-embd {
+  padding: 150px 15px;
+  position: relative;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+.right-embd {
+  padding: 150px 15px;
+  background: #13202d;
+  color: #fff;
+  z-index: 1;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+.embd-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+  max-width: 700px;
+  margin-left: auto;
+}
+.embd-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 15px;
+}
+
+.embd-text h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  position: relative;
+  margin-bottom: 18px;
+  margin-right: 0;
+}
+.embd-text h4 {
+  font-size: 22px;
+  margin: 16px 0 12px;
+}
+.embd-text p {
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 32px;
+  opacity: 0.6;
+}
+.embd-text a {
+  color: #2569e6 !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.embd-img1 {
+  position: relative;
+  padding: 0 15px;
+  padding-right: 0;
+}
+.embd-img1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.embd-img2 {
+  position: relative;
+  padding: 0 15px;
+  padding-right: 0;
+}
+.embd-img2 img {
+  max-width: 100%;
+  max-height: 100%;
+}

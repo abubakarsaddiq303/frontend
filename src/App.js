@@ -1,4 +1,5 @@
 import "./App.css";
+import Awards from "./components/awards/Awards";
 import Featured from "./components/features/Featured";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Services />
       <Featured />
+      <Awards />
     </div>
   );
 }
