@@ -1,9 +1,9 @@
-.container {
+.hero-container {
   position: relative;
   width: 100%;
   height: calc(100vh -5rem);
 }
-.container img {
+.hero-container img {
   width: 100%;
 }
 .heading {
