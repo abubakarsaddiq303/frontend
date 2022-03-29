@@ -183,3 +183,38 @@ form {
   display: flex;
   flex-direction: column;
 }
+.contact-number {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.contact-number li {
+  list-style-type: none;
+}
+.contact-number li img {
+  border-radius: 120px;
+  float: left;
+  margin-right: 20px;
+  width: 65px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin-top: 12px;
+}
+.contact-number li p {
+  padding-left: 85px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.country-title {
+  text-transform: capitalize;
+  line-height: 20px;
+  display: block;
+  font-size: 14px;
+}
+.email a {
+  color: #2569e6 !important;
+}
+.num a {
+  color: #2569e6 !important;
+}
