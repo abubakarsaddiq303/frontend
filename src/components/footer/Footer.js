@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css";
+import linkedIn from "../../assets/linkedin.webp";
+import facebook from "../../assets/facebook.webp";
 
 function Footer() {
   return (
@@ -211,31 +213,31 @@ function Footer() {
               <ul className="foot-sociallinks">
                 <li>
                   <a>
-                    <img src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnho…ntent/uploads/2021/09/linkedin-e1631614938441.png" />
+                    <img src={linkedIn} />
                   </a>
                 </li>
 
                 <li>
                   <a>
-                    <img src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnho…ntent/uploads/2021/09/linkedin-e1631614938441.png" />
+                    <img src={facebook} />
                   </a>
                 </li>
 
                 <li>
                   <a>
-                    <img src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnho…ntent/uploads/2021/09/linkedin-e1631614938441.png" />
+                    <img src={facebook} />
                   </a>
                 </li>
 
                 <li>
                   <a>
-                    <img src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnho…ntent/uploads/2021/09/linkedin-e1631614938441.png" />
+                    <img src={facebook} />
                   </a>
                 </li>
 
                 <li>
                   <a>
-                    <img src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnho…ntent/uploads/2021/09/linkedin-e1631614938441.png" />
+                    <img src={facebook} />
                   </a>
                 </li>
               </ul>

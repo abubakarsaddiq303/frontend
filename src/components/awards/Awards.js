@@ -1,7 +1,9 @@
 import React from "react";
 import "./Awards.css";
 import Carousel from "react-bootstrap/Carousel";
-import image from "../../assets/download.jpg";
+import image from "../../assets/top1.webp";
+import img1 from "../../assets/1.svg";
+import person from "../../assets/person.webp";
 
 function Awards() {
   return (
@@ -107,15 +109,15 @@ function Awards() {
                 <div className="con-grid1">
                   <div className="badges">
                     <a>
-                      <img src="https://clutch.co/profile/tkxel" />
+                      <img src={img1} />
                     </a>
                     <a>
-                      <img src="https://clutch.co/profile/tkxel" />
+                      <img src={img1} />
                     </a>
                   </div>
                   <ul className="contact-number">
                     <li>
-                      <img src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnho…ntent/themes/tkxel/assets/images/jason-frost.webp" />
+                      <img src={person} />
                       <div className="peson-name">Jason Frost</div>
                       <p>
                         <span className="country-title">

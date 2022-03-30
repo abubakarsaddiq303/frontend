@@ -183,6 +183,9 @@ form {
   display: flex;
   flex-direction: column;
 }
+.badges a {
+  padding-bottom: 40px;
+}
 .contact-number {
   list-style: none;
   padding: 0;
@@ -217,4 +220,7 @@ form {
 }
 .num a {
   color: #2569e6 !important;
+}
+.w-20 {
+  transition: 0.3s ease-in-out;
 }

@@ -3,6 +3,7 @@ import "./Navbar.css";
 import logo from "../../assets/Logo.svg";
 import Sales from "../../assets/Salesforce-Cardeee.svg";
 import dropdown from "../../assets/icons8-down-24.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -86,11 +87,15 @@ function Navbar() {
             </li>
 
             <li>
-              <a href="/">Clients</a>
+              <Link to="/client">
+                <a href="/">Clients</a>
+              </Link>
             </li>
 
             <li>
-              <a href="/">Company</a>
+              <Link to="/company">
+                <a href="/">Company</a>
+              </Link>
             </li>
 
             <li>

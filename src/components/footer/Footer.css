@@ -34,6 +34,7 @@ footer {
   margin-bottom: 12px;
   text-transform: capitalize;
   list-style: none;
+  list-style: none;
 }
 .footer-menu1 ul li a {
   color: #212529;
@@ -56,6 +57,9 @@ footer {
   display: flex;
   flex-direction: row;
   position: relative;
+  list-style: none;
+  width: 44rem;
+  justify-content: space-between;
 }
 .copy-text {
   color: rgba(0, 0, 0, 0.4);
@@ -67,6 +71,7 @@ footer {
   font-size: 15px;
   line-height: 1.6;
   list-style-type: none;
+  list-style: none;
 }
 .copy-social {
   padding: 0;
@@ -75,8 +80,12 @@ footer {
   margin: 0;
   flex-wrap: wrap;
   margin-right: 50px;
+  list-style: none;
 }
 .foot-sociallinks {
   display: flex;
   flex-direction: row;
+  list-style: none;
+  width: 16rem;
+  justify-content: space-between;
 }

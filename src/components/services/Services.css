@@ -9,6 +9,8 @@
 }
 .head {
   margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
 }
 .head h2 {
   text-transform: capitalize;
@@ -48,7 +50,7 @@
   margin-top: 40px;
 }
 .btn-services button {
-  background: #2569e6;
+  background: #80e296;
   border-radius: 2px;
   border: none;
   font-size: 13px;
